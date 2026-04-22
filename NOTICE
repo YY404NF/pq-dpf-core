@@ -1,0 +1,11 @@
+This repository contains code adapted from the following upstream project:
+
+- Project: myl7/fss
+- Repository: https://github.com/myl7/fss
+- License: Apache License 2.0
+
+Adapted components include the DPF CPU algorithm structure, utility helpers,
+and the software AES-128 MMO PRG approach. The implementation in this
+repository removes CUDA and OpenMP dependencies, replaces CUDA-specific data
+types with standard C++ equivalents, and exposes a small C ABI for backend
+integration.

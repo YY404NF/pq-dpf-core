@@ -8,8 +8,6 @@ This repository provides:
 - A C ABI for backend integration through `cgo`
 - Native tests for key generation, point evaluation, full-domain evaluation, and payload aggregation
 
-The implementation is adapted from [myl7/fss](https://github.com/myl7/fss) and keeps the original Apache-2.0 attribution in the source headers and repository metadata.
-
 ## Layout
 
 - `include/pq_dpf_core/core.hpp`: portable DPF core
